@@ -2,6 +2,17 @@ import { Resource, ResourceCategory, PackageType } from './Ecosystem';
 
 const utilities: Array<Resource> = [
   {
+    link: 'https://www.solid-formly.com/',
+    title: 'solid-formly',
+    description: "A good solution to generate and control a dynamic forms using core and custom rules with customize styles.",
+    author: 'Kamal Sahnoud',
+    author_url: 'https://github.com/dyaliCode',
+    keywords: ['form', 'forms', 'validations', 'validators'],
+    official: false,
+    type: PackageType.Package,
+    categories: [ResourceCategory.UI, ResourceCategory.BuildUtilities],
+  },
+  {
     link: 'https://github.com/solidjs/solid-styled-jsx',
     title: 'solid-styled-jsx',
     description: "Wrapper for using Solid with Vercel's Styled JSX.",
